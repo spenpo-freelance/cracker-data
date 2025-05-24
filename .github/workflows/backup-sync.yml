@@ -13,7 +13,6 @@ on:
         required: true
         type: choice
         options:
-          - staging
           - production
       migrate_users:
         description: 'Users will be migrated from source to target environment'
